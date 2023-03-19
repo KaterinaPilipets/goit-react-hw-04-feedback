@@ -31,7 +31,7 @@ export const App = () => {
 
   const positiveFeedbackPercentage = Math.round((good * 100) / totalFeedback);
 
-  const options = ['Good', 'Neutral', 'Bad'];
+  const options = ['good', 'neutral', 'bad'];
   return (
     <div>
       <Section title="Please leave feedback">
